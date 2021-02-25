@@ -191,7 +191,6 @@ $(".card .list-group").sortable({
         tempArr.push({
           text: text,
           date: date
-
         })
 
         console.log(tempArr);
@@ -207,6 +206,23 @@ $(".card .list-group").sortable({
 
   },
 });
+
+$("#trash").droppable({
+  accept: ".card .list-group",
+  tolerance: "touch",
+  drop: function(event, ui) {
+    ui.draggable.remove();
+    console.log("drop");
+  },
+  over: function(event, ui) {
+    console.log("over");
+  },
+  out: function(event, ui) {
+    console.log("out");
+  }
+
+
+})
 
 // load tasks for the first time
 loadTasks();
