@@ -13,7 +13,7 @@ Taskmaster Pro Edition is a task-management application where users can create t
 * Iconic
 
 ## Preview
-![plot](./Screen Shot 2021-02-26 at 2.48.41 PM.png?raw=true "Preview")
+![plot](./assets/images/screenShot.png?raw=true "Preview")
 
 ## Website
 https://LyleKilson.github.io/taskmaster-pro/
